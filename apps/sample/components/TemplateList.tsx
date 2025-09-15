@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { EmailTemplate, GuestJourneyStage } from '../types';
+import { EmailTemplate, GuestJourneyStage } from '../../types';
 
 interface TemplateListProps {
   templates: EmailTemplate[];

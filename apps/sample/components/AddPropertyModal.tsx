@@ -1,5 +1,5 @@
 import React, { useState, useEffect, FormEvent, ChangeEvent } from 'react';
-import { NewHotelData } from '../types';
+import { NewHotelData } from '../../types';
 import { Icon } from './Icon';
 
 interface AddPropertyModalProps {

@@ -1,5 +1,5 @@
 import React from 'react';
-import { HotelProperty } from '../types';
+import { HotelProperty } from '../../types';
 import { Icon } from './Icon';
 import ThemeToggle from './ThemeToggle';
 

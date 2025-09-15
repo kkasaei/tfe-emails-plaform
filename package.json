@@ -1,20 +1,21 @@
 {
-  "name": "tfe-gxp-emails-platform",
+  "name": "hotel-email-marketing",
+  "version": "1.0.0",
+  "description": "Hotel email marketing platform monorepo",
   "private": true,
-  "version": "0.0.0",
-  "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "dev": "pnpm --parallel --recursive dev",
+    "build": "pnpm --recursive build",
+    "lint": "pnpm --recursive lint",
+    "test": "pnpm --recursive test",
+    "clean": "pnpm --recursive clean"
   },
-  "dependencies": {
-    "react-dom": "^19.1.1",
-    "react": "^19.1.1"
-  },
+  "keywords": ["hotel", "email", "marketing", "monorepo"],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.10.0",
   "devDependencies": {
     "@types/node": "^22.14.0",
-    "typescript": "~5.8.2",
-    "vite": "^6.2.0"
+    "typescript": "~5.8.3"
   }
 }

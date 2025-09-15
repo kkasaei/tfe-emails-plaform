@@ -1,6 +1,6 @@
 
 import React, { useState, useMemo } from 'react';
-import { HotelProperty, NewHotelData } from '../types';
+import { HotelProperty, NewHotelData } from '../../types';
 import HotelCard from './HotelCard';
 import { Icon } from './Icon';
 import AddPropertyModal from './AddPropertyModal';

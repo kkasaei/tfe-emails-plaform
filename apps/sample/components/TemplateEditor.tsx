@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect, useCallback, useRef } from 'react';
-import { HotelProperty, EmailTemplate } from '../types';
+import { HotelProperty, EmailTemplate } from '../../types';
 import TemplateList from './TemplateList';
 import { Icon } from './Icon';
 
