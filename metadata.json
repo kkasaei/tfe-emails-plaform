@@ -1,0 +1,5 @@
+{
+  "name": "Hotel Marketing Email Editor",
+  "description": "A web application for hotel marketing teams to manage and visually edit MJML email templates for each stage of the guest journey. Features a dashboard of hotel properties and a responsive email editor with desktop and mobile previews.",
+  "requestFramePermissions": []
+}
